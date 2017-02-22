@@ -11,6 +11,6 @@
 2. Web-socket port (`16918`)
 As of right now, these are not dynamic and are hard-coded in the underlying PHP and JavaScript. Which is why you must `-p` explicitly to prevent Docker from randomizing host-side ports.
 
-`docker run -it --rm -p 3000:3000/tcp -p 16918:16918/tcp ketchupbomb/gwent`
+`docker run -it --rm -p 3000:3000/tcp -p 16918:16918/tcp ketchupbomb/docker-gwent`
 
 [not-gwent-online]: https://github.com/exane/not-gwent-online
